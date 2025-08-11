@@ -1,56 +1,27 @@
 {
-  "name": "ctai-simulador",
-  "version": "0.1.0",
+  "name": "istqb-ia-testing",
+  "version": "1.0.0",
   "private": true,
- "scripts": {
+  "type": "module",
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "latest",
-    "gh-pages": "^6.0.0",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.25.0",
-    "@tailwindcss/cli": "^4.1.10",
-    "@tailwindcss/postcss": "^4.1.10",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "latest",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.25.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "gh-pages": "^6.3.0",
-    "globals": "^16.0.0",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
-    "vite": "^7.1.1"
+    "vite": "latest"
   }
 }
