@@ -39,6 +39,7 @@
 
 ## 👨‍💻 Uso de la Aplicación
 
+**link -> https://manugm98.github.io/ISTQB-IA-TESTING/**
 
 - 1️⃣ **Pantalla de bienvenida** → Al iniciar, verás una pantalla con un botón "Iniciar Examen". Haz clic para comenzar.
 
