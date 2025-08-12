@@ -35,15 +35,6 @@
 
 ---
 
-## 🚀 Cómo Empezar
-
-### 1️⃣ Clona el repositorio
-```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <nombre_del_repositorio>
-
-```
-
 
 
 ## 👨‍💻 Uso de la Aplicación
