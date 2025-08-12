@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<!-- Portada -->
+<p align="center">
+  <img src="https://img.shields.io/badge/QA%20Testing-CT--AI-blue?style=for-the-badge" alt="CT-AI Badge" />
+  <img src="https://img.shields.io/badge/React-18.0-blue?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.0-38B2AC?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">📚 Simulador de Examen: Certified Tester AI Testing (CT-AI)</h1>
 
-## Available Scripts
+<p align="center">
+  Este proyecto es un <b>simulador de examen interactivo</b> para ayudar a profesionales de QA y desarrolladores a prepararse para la certificación <b>CT-AI (Certified Tester AI Testing)</b> de ISTQB.
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <i>Banco de más de 100 preguntas • 40 preguntas por intento • Resultados inmediatos</i>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Características Principales
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Examen Dinámico**: Selección aleatoria de 40 preguntas por sesión, con respuestas también aleatorizadas.  
+- **Navegación Flexible**: Avanza y retrocede para revisar o cambiar respuestas antes de finalizar.  
+- **Validación de Respuestas**: Debes responder antes de pasar a la siguiente pregunta.  
+- **Resultados Inmediatos**: Muestra puntuación y estado de aprobación (mínimo 70%).  
+- **Interfaz Amigable**: Diseño limpio y responsivo para móvil y escritorio.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tecnologías Utilizadas
 
-### `npm run build`
+- **React** – Biblioteca de JavaScript para interfaces de usuario.  
+- **Tailwind CSS** – Framework CSS "utility-first" para un estilizado rápido y flexible.  
+- **Heroicons** – Librería de íconos SVG para mejorar la experiencia visual.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Cómo Empezar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Clona el repositorio
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd <nombre_del_repositorio>
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Uso de la Aplicación
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+- 1️⃣ **Pantalla de bienvenida** → Al iniciar, verás una pantalla con un botón "Iniciar Examen". Haz clic para comenzar.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 2️⃣ **Responde las preguntas** → Contarás con 40 preguntas. Selecciona la opción que consideres correcta.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 3️⃣ **Navegación** → Usa "Anterior" y "Siguiente" para moverte.
+⚠️ El botón "Siguiente" estará deshabilitado hasta que selecciones una respuesta.
 
-### Code Splitting
+- 4️⃣ **Finalizar** → Al llegar a la última pregunta, el botón "Siguiente" cambiará a "Finalizar". Haz clic para ver tus resultados.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 5️⃣ **Resultados** → Verás tu puntuación y si aprobaste o no.
+   **📊 Necesitas un 70% o más para aprobar.**
 
-### Analyzing the Bundle Size
+- 6️⃣ Reiniciar → Haz clic en "Reiniciar Examen" para generar un nuevo conjunto de preguntas y volver a comenzar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
