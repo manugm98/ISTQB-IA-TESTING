@@ -565,7 +565,7 @@ const QuizApp = () => {
             } else {
                 setShowScore(true);
             }
-        }, 3000); // 3-second delay to read feedback
+        }, 5000); // 5-second delay to read feedback
     };
 
     if (showScore) {
